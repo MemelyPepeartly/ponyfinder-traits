@@ -1,0 +1,36 @@
+name: Create Release
+
+on:
+  push:
+    branches:
+      - main  # adjust to your default branch if different
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Zip module.js
+      run: |
+        zip module.zip module.json
+
+    - name: Extract version from module.json
+      id: get_version
+      run: |
+        VERSION=$(jq -r ".version" module.json)
+        echo "VERSION=$VERSION" >> $GITHUB_ENV
+        echo "::set-output name=version::$VERSION"
+
+    - name: Create Release and Upload Asset
+      uses: ncipollo/release-action@v1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        tag: ${{ env.VERSION }}
+        name: Release ${{ env.VERSION }}
+        allowUpdates: true
+        artifacts: "module.json, ./module.zip"
+        draft: false
+        prerelease: false

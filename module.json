@@ -1,0 +1,158 @@
+{
+  "id": "ponyfinder-pf2e-traits",
+  "title": "Ponyfinder PF2e Traits",
+  "version": "1.1.3",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "ponyfinder-foundryvtt-module",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "ponyfinder-tribes-of-everglow",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "princess-luminaces-guide-to-the-pony-pantheon",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "seas-of-everglow",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "This module contains traits introduced in the Ponyfinder Pathfinder 2e setting and serves as a common starting point. It is free to use.",
+  "authors": [
+    {
+      "name": "David Silver",
+      "discord": "davidsilver",
+      "url": "https://www.drivethrurpg.com/browse/pub/5559/Silver-Games-LLC",
+      "flags": {}
+    },
+    {
+      "name": "Teraunce Foaloke",
+      "discord": "teraunce",
+      "email": "Teraunce@gmail.com",
+      "flags": {}
+    },
+    {
+      "name": "Memely",
+      "discord": "memely",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/MemelyPepeartly/ponyfinder-pf2e-traits",
+  "packs": [],
+  "flags": {
+    "ponyfinder-pf2e-traits": {
+      "pf2e-homebrew": {
+        "creatureTraits": {
+          "luminous-dragon": "Luminous Dragon",
+          "pony-satyr": "Pony Satyr",
+          "corsikan": "Corsikan",
+          "kooshre": "Kooshre",
+          "shimmershell-pony": "Shimmershell Pony",
+          "cloven": "Cloven",
+          "doppelganger": "Doppelganger",
+          "flutterpony": "Flutterpony",
+          "griffon": "Griffon",
+          "half-construct": "Half-Construct",
+          "krava": "Krava",
+          "phoenix-wolf": "Phoenix Wolf",
+          "ponykind": "Ponykind",
+          "purrsian": "Purrsian",
+          "steelheart": "Steelheart",
+          "sun-cat": "Sun Cat",
+          "beast-folk": "Beast Folk",
+          "masakio": "Masakio",
+          "tembo": "Tembo",
+          "twiga": "Twiga",
+          "nedjes-sphinx": "Nedjes Sphinx",
+          "deep-elf": "Deep Elf",
+          "unspoken-spawn": "Unspoken Spawn",
+          "reptilin": "Reptilin",
+          "ruminant": "Ruminant"
+        },
+        "featTraits": {
+          "luminous-dragon": "Luminous Dragon",
+          "pony-satyr": "Pony Satyr",
+          "class": "Class",
+          "corsikan": "Corsikan",
+          "kooshre": "Kooshre",
+          "shimmershell-pony": "Shimmershell Pony",
+          "cloven": "Cloven",
+          "doppelganger": "Doppelganger",
+          "flutterpony": "Flutterpony",
+          "griffon": "Griffon",
+          "half-construct": "Half-Construct",
+          "krava": "Krava",
+          "phoenix-wolf": "Phoenix Wolf",
+          "ponykind": "Ponykind",
+          "purrsian": "Purrsian",
+          "steelheart": "Steelheart",
+          "sun-cat": "Sun Cat",
+          "beast-folk": "Beast Folk",
+          "masakio": "Masakio",
+          "tembo": "Tembo",
+          "twiga": "Twiga",
+          "nedjes-sphinx": "Nedjes Sphinx",
+          "deep-elf": "Deep Elf",
+          "unspoken-spawn": "Unspoken Spawn",
+          "reptilin": "Reptilin",
+          "ruminant": "Ruminant",
+          "silver-psion": "Silver Psion",
+          "planar-warrior": "Planar Warrior",
+          "spirit-tribe": "Spirit Tribe"
+        },
+        "weaponTraits": {
+          "oceanic": "Oceanic",
+          "blocking": "Blocking"
+        },
+        "spellTraits": {
+          "dynamic-heightening": "Dynamic Heightening",
+          "forgotten": "Forgotten",
+          "centered": "Centered"
+        },
+        "languages": {
+          "brightens": "Brightens",
+          "paolin": "Paolin"
+        },
+        "equipmentTraits": {
+          "oceanic": "Oceanic"
+        }
+      }
+    }
+  },
+  "packFolders": [
+    {
+      "name": "Ponyfinder",
+      "sorting": "m",
+      "folders": [
+        {
+          "name": "Ponyfinder PF2e Traits",
+          "sorting": "m",
+          "packs": []
+        }
+      ],
+      "packs": []
+    }
+  ],
+  "manifest": "https://github.com/MemelyPepeartly/ponyfinder-pf2e-traits/releases/latest/download/module.json",
+  "download": "https://github.com/MemelyPepeartly/ponyfinder-pf2e-traits/releases/latest/download/module.zip"
+}
