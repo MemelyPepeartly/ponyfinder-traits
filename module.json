@@ -1,5 +1,5 @@
 {
-  "id": "ponyfinder-pf2e-traits",
+  "id": "ponyfinder-traits",
   "title": "Ponyfinder PF2e Traits",
   "version": "1.1.3",
   "compatibility": {
@@ -57,10 +57,10 @@
       "flags": {}
     }
   ],
-  "url": "https://github.com/MemelyPepeartly/ponyfinder-pf2e-traits",
+  "url": "https://github.com/MemelyPepeartly/ponyfinder-traits",
   "packs": [],
   "flags": {
-    "ponyfinder-pf2e-traits": {
+    "ponyfinder-traits": {
       "pf2e-homebrew": {
         "creatureTraits": {
           "luminous-dragon": "Luminous Dragon",
@@ -153,6 +153,6 @@
       "packs": []
     }
   ],
-  "manifest": "https://github.com/MemelyPepeartly/ponyfinder-pf2e-traits/releases/latest/download/module.json",
-  "download": "https://github.com/MemelyPepeartly/ponyfinder-pf2e-traits/releases/latest/download/module.zip"
+  "manifest": "https://github.com/MemelyPepeartly/ponyfinder-traits/releases/latest/download/module.json",
+  "download": "https://github.com/MemelyPepeartly/ponyfinder-traits/releases/latest/download/module.zip"
 }
