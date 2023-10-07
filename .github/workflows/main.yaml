@@ -18,7 +18,7 @@ jobs:
 
     - name: Zip module.js
       run: |
-        zip module.zip module.json
+        zip -r ponyfinder-traits.zip module.json CHANGELOG.md README.md packs
 
     - name: Extract version from module.json
       id: get_version

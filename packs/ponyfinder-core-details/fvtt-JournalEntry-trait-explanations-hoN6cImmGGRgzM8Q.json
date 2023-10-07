@@ -1,0 +1,126 @@
+{
+  "name": "Trait Explanations",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Class Feat Traits",
+      "type": "text",
+      "_id": "SrOnwiyXffZr6B5O",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Class</h1><p>A feat with this trait can be taken by any class provided they meet the Requirements.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "vqA3KISEHNnb9ZUK": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.6.2",
+        "coreVersion": "11.311",
+        "createdTime": 1696351735557,
+        "modifiedTime": 1696351813077,
+        "lastModifiedBy": "vqA3KISEHNnb9ZUK"
+      }
+    },
+    {
+      "sort": 200000,
+      "name": "Weapon Property Traits",
+      "type": "text",
+      "_id": "31Wi7cEznc38KZDp",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Oceanic</h1><p><span class=\"fontstyle0\">An Oceanic weapon with functions without penalties when used underwater. Whether it's by materials, construction, or method of use, it can be swung, thrust, or clubbed with as effectively as a weapon used outside of water.</span></p><p><span class=\"fontstyle0\">Any weapons constructed by undersea races are likely to be Oceanic and have the appropriate Trait, Property, or Quality depending on your system.</span></p><p><span class=\"fontstyle0\">To purchase an Oceanic Weapon that does not normally have this ability, it costs triple the base cost of a standard item.</span> </p><h1>Blocking</h1><p>A weapon with Blocking can be used to block an attack and raised like a shield. Currently this is implemented by providing a matching shield item.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "vqA3KISEHNnb9ZUK": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.6.2",
+        "coreVersion": "11.311",
+        "createdTime": 1696351899634,
+        "modifiedTime": 1696464308906,
+        "lastModifiedBy": "vqA3KISEHNnb9ZUK"
+      }
+    },
+    {
+      "sort": 300000,
+      "name": "Spell Property Traits",
+      "type": "text",
+      "_id": "LqvviDPSG4M8W7jz",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1><span class=\"fontstyle0\">Dynamic Heightening</span></h1><p><span class=\"fontstyle2\">Spells with this trait do not gain all applicable heightening that is based on the addition of levels (+1, +2, etc.). The caster must choose which heightened effects will apply as if purchasing them with the extra levels the spell is heightened by. The same heighten effect can be purchased multiple times. These decisions are made while casting the spell.</span></p><h1><span class=\"fontstyle0\">Forgotten Spells</span></h1><p><span class=\"fontstyle2\">Spells with the forgotten descriptor are lost to time. They are not available to be taken on level up, found in stores, or accessible even to divine casters. Only after finding the spell and studying it can the spell be accessed. A wizard could then scribe it into their book, and a cleric could pray for the spell the next time they regain spells.</span></p><p><span class=\"fontstyle2\">This is specific to Everglow. If you’re running a different campaign, you could mark entirely different spells as forgotten. You could even do so for your own Everglow campaign, as the GM. Forgotten is not written in stone as a mechanical requirement for the spell. Instead, it is another tool to increase mystery and provide treasure for your players to go for that isn’t a shiny artifact, but instead something in a book that may be just as valuable.</span> </p><h1>Concealed</h1><p><span class=\"fontstyle0\">Spells and actions with this trait require you be psionically centered to use. Many expend this center as a result.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "vqA3KISEHNnb9ZUK": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.6.2",
+        "coreVersion": "11.311",
+        "createdTime": 1696352007881,
+        "modifiedTime": 1696520550393,
+        "lastModifiedBy": "vqA3KISEHNnb9ZUK"
+      }
+    }
+  ],
+  "folder": "lKBUMg9uBt2xIspF",
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "otari-world",
+      "system": "pf2e",
+      "coreVersion": "11.311",
+      "systemVersion": "5.6.2"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.6.2",
+    "coreVersion": "11.311",
+    "createdTime": 1696351701851,
+    "modifiedTime": 1696710259075,
+    "lastModifiedBy": "vqA3KISEHNnb9ZUK"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "name": "Ponyfinder Language Details",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Brightens",
+      "type": "text",
+      "_id": "5SC3Puso0LRtXb9B",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Brightens serves as Common for Humanoid settlements in Everglow. Named after a Human empire of the same name, it has spread far and wide as a trade language.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "vqA3KISEHNnb9ZUK": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.6.2",
+        "coreVersion": "11.311",
+        "createdTime": 1696442974060,
+        "modifiedTime": 1696443071751,
+        "lastModifiedBy": "vqA3KISEHNnb9ZUK"
+      }
+    },
+    {
+      "sort": 200000,
+      "name": "Paolin",
+      "type": "text",
+      "_id": "ddI6y1TamIf1PIw8",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Paolin serves as the other Humanoid Common. Less well known and used, it is still likely you can find someone in a humanoid settlement who can speak it. It does become more common the further from Everglow you get.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "vqA3KISEHNnb9ZUK": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.6.2",
+        "coreVersion": "11.311",
+        "createdTime": 1696443104126,
+        "modifiedTime": 1696464399177,
+        "lastModifiedBy": "vqA3KISEHNnb9ZUK"
+      }
+    },
+    {
+      "sort": 300000,
+      "name": "Fey",
+      "type": "text",
+      "_id": "fs0zL3BPf0WQ3INP",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>For Ponies and other Everglow natives Fey serves as Common. In Everglow it serves as the Trade Tongue everyone uses.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "vqA3KISEHNnb9ZUK": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.6.2",
+        "coreVersion": "11.311",
+        "createdTime": 1696443182007,
+        "modifiedTime": 1696464365577,
+        "lastModifiedBy": "vqA3KISEHNnb9ZUK"
+      }
+    }
+  ],
+  "folder": "lKBUMg9uBt2xIspF",
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "otari-world",
+      "system": "pf2e",
+      "coreVersion": "11.311",
+      "systemVersion": "5.6.2"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.6.2",
+    "coreVersion": "11.311",
+    "createdTime": 1696442962706,
+    "modifiedTime": 1696710259075,
+    "lastModifiedBy": "vqA3KISEHNnb9ZUK"
+  }
+}
