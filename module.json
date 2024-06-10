@@ -1,7 +1,7 @@
 {
   "id": "ponyfinder-traits",
   "title": "Ponyfinder PF2e Traits",
-  "version": "1.1.5",
+  "version": "1.1.8",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
@@ -62,12 +62,17 @@
           "pony-satyr": "Pony Satyr",
           "corsikan": "Corsikan",
           "kooshre": "Kooshre",
+          "punda": "Punda",
           "shimmershell-pony": "Shimmershell Pony",
           "cloven": "Cloven",
           "doppelganger": "Doppelganger",
           "flutterpony": "Flutterpony",
           "griffon": "Griffon",
           "half-construct": "Half-Construct",
+          "big mao": "Bear Folk",
+          "drakehoof": "Dragon Ponies",
+          "vulpony": "Fox Ponies",
+
           "krava": "Krava",
           "phoenix-wolf": "Phoenix Wolf",
           "ponykind": "Ponykind",
@@ -97,6 +102,7 @@
           "griffon": "Griffon",
           "half-construct": "Half-Construct",
           "krava": "Krava",
+          "punda": "Punda",
           "phoenix-wolf": "Phoenix Wolf",
           "ponykind": "Ponykind",
           "purrsian": "Purrsian",
