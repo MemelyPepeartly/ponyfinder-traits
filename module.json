@@ -72,7 +72,6 @@
           "big mao": "Bear Folk",
           "drakehoof": "Dragon Ponies",
           "vulpony": "Fox Ponies",
-
           "krava": "Krava",
           "phoenix-wolf": "Phoenix Wolf",
           "ponykind": "Ponykind",
@@ -87,7 +86,9 @@
           "deep-elf": "Deep Elf",
           "unspoken-spawn": "Unspoken Spawn",
           "reptilin": "Reptilin",
-          "ruminant": "Ruminant"
+          "ruminant": "Ruminant",
+          "gem-gnoll": "Gem Gnoll",
+          "impure": "Impure"
         },
         "featTraits": {
           "luminous-dragon": "Luminous Dragon",
