@@ -1,10 +1,10 @@
 {
   "id": "ponyfinder-traits",
   "title": "Ponyfinder PF2e Traits",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "compatibility": {
     "minimum": "11",
-    "verified": "11"
+    "verified": "12"
   },
   "relationships": {
     "systems": [
@@ -118,7 +118,9 @@
           "ruminant": "Ruminant",
           "silver-psion": "Silver Psion",
           "planar-warrior": "Planar Warrior",
-          "spirit-tribe": "Spirit Tribe"
+          "spirit-tribe": "Spirit Tribe",
+          "gem-gnoll": "Gem Gnoll",
+          "impure": "Impure"
         },
         "weaponTraits": {
           "oceanic": "Oceanic",
