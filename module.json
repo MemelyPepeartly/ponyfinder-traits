@@ -89,7 +89,9 @@
           "ruminant": "Ruminant",
           "gem-gnoll": "Gem Gnoll",
           "impure": "Impure",
-          "elemental-dancer": "Elemental Dancer"
+          "elemental-dancer": "Elemental Dancer",
+          "two-pelted": "Two-Pelted",
+          "husbryce-scout": "Husbryce Scout",
         },
         "featTraits": {
           "luminous-dragon": "Luminous Dragon",
@@ -124,7 +126,10 @@
           "spirit-tribe": "Spirit Tribe",
           "gem-gnoll": "Gem Gnoll",
           "impure": "Impure",
-          "elemental-dancer": "Elemental Dancer"
+          "elemental-dancer": "Elemental Dancer",
+          "two-pelted": "Two-Pelted",
+          "husbryce-scout": "Husbryce Scout",
+          "werebat": "Werebat"
         },
         "weaponTraits": {
           "oceanic": "Oceanic",
