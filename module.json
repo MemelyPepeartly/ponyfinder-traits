@@ -1,7 +1,7 @@
 {
   "id": "ponyfinder-traits",
   "title": "Ponyfinder PF2e Traits",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
@@ -69,7 +69,6 @@
           "flutterpony": "Flutterpony",
           "griffon": "Griffon",
           "half-construct": "Half-Construct",
-          "big mao": "Bear Folk",
           "drakehoof": "Dragon Ponies",
           "vulpony": "Fox Ponies",
           "krava": "Krava",
@@ -91,7 +90,8 @@
           "impure": "Impure",
           "elemental-dancer": "Elemental Dancer",
           "two-pelted": "Two-Pelted",
-          "husbryce-scout": "Husbryce Scout"
+          "husbryce-scout": "Husbryce Scout",
+          "big-mao": "Big Mao"
         },
         "featTraits": {
           "luminous-dragon": "Luminous Dragon",
@@ -129,7 +129,8 @@
           "elemental-dancer": "Elemental Dancer",
           "two-pelted": "Two-Pelted",
           "husbryce-scout": "Husbryce Scout",
-          "werebat": "Werebat"
+          "werebat": "Werebat",
+          "big-mao": "Big Mao"
         },
         "weaponTraits": {
           "oceanic": "Oceanic",
