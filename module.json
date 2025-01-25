@@ -1,7 +1,7 @@
 {
   "id": "ponyfinder-traits",
   "title": "Ponyfinder PF2e Traits",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
@@ -140,7 +140,8 @@
         "spellTraits": {
           "dynamic-heightening": "Dynamic Heightening",
           "forgotten": "Forgotten",
-          "centered": "Centered"
+          "centered": "Centered",
+          "enhancing": "Enhancing"
         },
         "languages": {
           "brightens": "Brightens",
