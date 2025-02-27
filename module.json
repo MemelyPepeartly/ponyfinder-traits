@@ -1,7 +1,7 @@
 {
   "id": "ponyfinder-traits",
   "title": "Ponyfinder PF2e Traits",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
@@ -27,6 +27,11 @@
       },
       {
         "id": "princess-luminaces-guide-to-the-pony-pantheon",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "ponyfinder-bestiary-of-everglow-for-pathfinder-2e",
         "type": "module",
         "compatibility": {}
       }
@@ -91,7 +96,10 @@
           "elemental-dancer": "Elemental Dancer",
           "two-pelted": "Two-Pelted",
           "husbryce-scout": "Husbryce Scout",
-          "big-mao": "Big Mao"
+          "big-mao": "Big Mao",
+          "earth-bound": "Earth-Bound",
+          "pegasus": "Pegasus",
+          "Unicorn": "Unicorn"
         },
         "featTraits": {
           "luminous-dragon": "Luminous Dragon",
@@ -131,7 +139,8 @@
           "two-pelted": "Two-Pelted",
           "husbryce-scout": "Husbryce Scout",
           "werebat": "Werebat",
-          "big-mao": "Big Mao"
+          "big-mao": "Big Mao",
+          "occasional": "occasional"
         },
         "weaponTraits": {
           "oceanic": "Oceanic",
