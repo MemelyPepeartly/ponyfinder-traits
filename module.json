@@ -1,10 +1,10 @@
 {
   "id": "ponyfinder-traits",
   "title": "Ponyfinder PF2e Traits",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "compatibility": {
     "minimum": "11",
-    "verified": "12"
+    "verified": "13"
   },
   "relationships": {
     "systems": [
@@ -157,7 +157,8 @@
           "paolin": "Paolin"
         },
         "equipmentTraits": {
-          "oceanic": "Oceanic"
+          "oceanic": "Oceanic",
+          "scrap": "Scrap"
         }
       }
     }
