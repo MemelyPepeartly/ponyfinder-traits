@@ -99,7 +99,8 @@
           "big-mao": "Big Mao",
           "earth-bound": "Earth-Bound",
           "pegasus": "Pegasus",
-          "Unicorn": "Unicorn"
+          "unicorn": "Unicorn",
+          "kirin": "Kirin"
         },
         "featTraits": {
           "luminous-dragon": "Luminous Dragon",
@@ -140,7 +141,8 @@
           "husbryce-scout": "Husbryce Scout",
           "werebat": "Werebat",
           "big-mao": "Big Mao",
-          "occasional": "occasional"
+          "occasional": "Occasional"
+          "kirin": "Kirin"
         },
         "weaponTraits": {
           "oceanic": "Oceanic",
