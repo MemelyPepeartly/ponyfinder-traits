@@ -33,6 +33,11 @@
         "id": "princess-luminaces-guide-to-the-pony-pantheon",
         "type": "module",
         "compatibility": {}
+      },
+      {
+        "id": "ponyfinder-bestiary-of-everglow-for-pathfinder-2e",
+        "type": "module",
+        "compatibility": {}
       }
     ]
   },
@@ -73,8 +78,7 @@
           "flutterpony": "Flutterpony",
           "griffon": "Griffon",
           "half-construct": "Half-Construct",
-          "big mao": "Bear Folk",
-          "drakehoof": "Dragon Ponies",
+          "drakehoof": "Drakehoof",
           "vulpony": "Fox Ponies",
           "krava": "Krava",
           "phoenix-wolf": "Phoenix Wolf",
@@ -95,7 +99,12 @@
           "impure": "Impure",
           "elemental-dancer": "Elemental Dancer",
           "two-pelted": "Two-Pelted",
-          "husbryce-scout": "Husbryce Scout"
+          "husbryce-scout": "Husbryce Scout",
+          "big-mao": "Big Mao",
+          "earth-bound": "Earth-Bound",
+          "pegasus": "Pegasus",
+          "unicorn": "Unicorn",
+          "kirin": "Kirin"
         },
         "featTraits": {
           "luminous-dragon": "Luminous Dragon",
@@ -109,6 +118,7 @@
           "flutterpony": "Flutterpony",
           "griffon": "Griffon",
           "half-construct": "Half-Construct",
+          "drakehoof": "Drakehoof",
           "krava": "Krava",
           "punda": "Punda",
           "phoenix-wolf": "Phoenix Wolf",
@@ -133,7 +143,10 @@
           "elemental-dancer": "Elemental Dancer",
           "two-pelted": "Two-Pelted",
           "husbryce-scout": "Husbryce Scout",
-          "werebat": "Werebat"
+          "werebat": "Werebat",
+          "big-mao": "Big Mao",
+          "occasional": "Occasional",
+          "kirin": "Kirin"
         },
         "weaponTraits": {
           "oceanic": "Oceanic",
@@ -142,14 +155,16 @@
         "spellTraits": {
           "dynamic-heightening": "Dynamic Heightening",
           "forgotten": "Forgotten",
-          "centered": "Centered"
+          "centered": "Centered",
+          "enhancing": "Enhancing"
         },
         "languages": {
           "brightens": "Brightens",
           "paolin": "Paolin"
         },
         "equipmentTraits": {
-          "oceanic": "Oceanic"
+          "oceanic": "Oceanic",
+          "scrap": "Scrap"
         }
       }
     }
