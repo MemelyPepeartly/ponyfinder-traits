@@ -14,26 +14,32 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
-    - name: Zip module.js
-      run: |
-        zip module.zip module.json
+    - name: Setup Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
 
-    - name: Extract version from module.json
-      id: get_version
+    - name: Build release bundle
       run: |
-        VERSION=$(jq -r ".version" module.json)
-        echo "VERSION=$VERSION" >> $GITHUB_ENV
-        echo "::set-output name=version::$VERSION"
+        node ./tools/build-local.mjs
+
+    - name: Zip module bundle
+      run: |
+        cd dist
+        zip -r ../module.zip .
+
+    - name: Extract version from package.json
+      run: node -e "console.log('RELEASE_VERSION=' + require('./package.json').version)" >> $GITHUB_ENV
 
     - name: Create Release and Upload Asset
       uses: ncipollo/release-action@v1
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        tag: ${{ env.VERSION }}
-        name: Release ${{ env.VERSION }}
+        tag: ${{ env.RELEASE_VERSION }}
+        name: Release ${{ env.RELEASE_VERSION }}
         allowUpdates: true
-        artifacts: "module.json, ./module.zip"
+        artifacts: "dist/module.json, ./module.zip"
         draft: false
         prerelease: false

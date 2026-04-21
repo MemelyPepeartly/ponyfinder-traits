@@ -1,8 +1,11 @@
-import { cpSync, existsSync, mkdirSync, rmSync } from "node:fs";
+import { cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import path from "node:path";
 
 const repoRoot = process.cwd();
 const distDir = path.join(repoRoot, "dist");
+const packageJson = JSON.parse(
+    readFileSync(path.join(repoRoot, "package.json"), "utf8")
+);
 
 rmSync(distDir, { recursive: true, force: true });
 mkdirSync(distDir, { recursive: true });
@@ -15,6 +18,15 @@ for (const fileName of requiredFiles) {
     }
     cpSync(source, path.join(distDir, fileName));
 }
+
+const distModuleJsonPath = path.join(distDir, "module.json");
+const distModuleJson = JSON.parse(readFileSync(distModuleJsonPath, "utf8"));
+distModuleJson.version = packageJson.version;
+writeFileSync(
+    distModuleJsonPath,
+    `${JSON.stringify(distModuleJson, null, 2)}\n`,
+    "utf8"
+);
 
 const optionalFiles = ["README.md", "LICENSE", "LICENSE.md", "changelog.md"];
 for (const fileName of optionalFiles) {
