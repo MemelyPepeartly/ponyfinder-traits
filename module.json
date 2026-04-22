@@ -174,11 +174,14 @@
     {
       "name": "Ponyfinder",
       "sorting": "m",
+      "color": "#2f2a2a",
       "folders": [
         {
           "name": "Ponyfinder PF2e Traits",
           "sorting": "m",
-          "packs": []
+          "color": "#4a3a2e",
+          "packs": [],
+          "folders": []
         }
       ],
       "packs": []
